@@ -1,14 +1,40 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
+# Unreal Engine generated directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# VS / Rider project files
 *.sln
 *.suo
-*.xcodeproj
-*.xcworkspace
+*.user
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vs/
+.idea/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# macOS metadata
+.DS_Store
+
+# Linux debug files
+*.dSYM/
+core
+
+# Blender toolkit runtime cache (keep config, ignore runtime)
+.blender-toolkit/addon_version_cache/
